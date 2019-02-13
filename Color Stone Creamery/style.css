@@ -1,0 +1,183 @@
+h1 {
+	margin: 0px; 
+}
+
+#container {
+	border: 1px solid lightgray;
+	width: 414px;
+	height: 736px;
+	margin: auto;
+	background-image: url("images/stripes.png");
+
+
+}
+
+.pink-button {
+	height: 86px;
+	width: 414px;
+	background: #FF9A9A;
+	text-align: center;
+}
+
+.gray-button {
+	height: 86px;
+	width: 414px;
+	background: #DDDDDD;
+	text-align: center;
+}
+
+.button-label {
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-weight: 300;
+	font-size: 35px;
+	text-decoration: none;
+	display: block;
+	padding-top: 20px;
+}
+
+.header {
+	width: 414px;
+	height: 125px;
+	
+}
+
+.header-logo {
+	width: 165px;
+	display: block;
+	margin: auto;
+	padding-top: 38px;
+	padding-left: 40px;
+
+}
+
+.instructions {
+	width: 414px;
+	height: 508px;
+
+}
+
+.instructions-text {
+	font-family: Futura;
+	font-size: 17px;
+	color: #707070;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.instructions-header-logo {
+	width: 165px;
+	display: block;
+	margin: auto;
+	padding-top: 38px;
+
+}
+
+.game-content {
+	width: 414px;
+	height: 490px;
+	margin-bottom: 5px;
+}
+
+.error-message {
+	height: 30px;
+	width: 414px;
+	text-align: center;
+}
+
+.error-text {
+	font-family: Futura;
+	font-size: 17px;
+	color: #707070;
+	text-align: center;
+	margin: 0px;
+
+}
+
+.icecream {
+	display: inline-block;
+	width: 270px;
+	height: 100%;
+}
+
+.cone-image {
+	margin-top: 40px;
+	float: right;
+}
+
+.colors {
+	width: 140px;
+	height: 100%;
+	float: right;
+	vertical-align: top;
+	display: inline-block;
+
+}
+
+.circle {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: 19px;
+	margin-left: 38px;
+}
+
+
+
+#home-logo-container {
+	width: 414px;
+    height: 650px;
+    
+
+}
+
+#home-logo {
+	width: 414px;
+	margin-top: 190px;
+}
+
+#colorwheel {
+	width: 400px;
+	display: block;
+	margin: auto;
+}
+
+#home-button {
+	width: 40px;
+	float: right;
+	
+}
+
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.red {
+	background-color: red;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.orange {
+	background-color: orange;
+}
+
+

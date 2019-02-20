@@ -1,0 +1,169 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+max-width: 1600px;  height:100%;
+}
+
+
+/*Percentage Response*/
+
+#p1-content {
+	background: wheat;
+	width: 80%;
+	height: auto; 
+	margin: auto;
+	padding: 5%;
+
+}
+
+#p1-top {
+	width: 50%;
+	height: auto;
+	background: orange;
+	margin: auto;
+	padding: 2%;
+	margin-bottom: 20px;
+
+}
+
+
+#p1-bottom {
+	width: 90%;
+	height: auto;
+	background: sienna;
+	margin: auto;
+	padding: 3%;
+
+}
+
+#p1-image {
+	width: 100%;
+	
+
+}
+
+p {
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+
+}
+
+
+
+
+/*Column Response*/
+
+#p2-content {
+	width: 100%;
+	margin: auto;
+}
+
+#p2-left {
+	width: 30%;
+	display: inline-block;
+	background: orange;
+	vertical-align: top;
+	padding: 2%;
+
+}
+
+#p2-right {
+	background: brown;
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 2%;
+
+}
+
+#p2-image {
+	width: 100%;
+	height: auto;
+
+}
+
+
+
+
+
+
+
+/*Metamer Response*/
+
+#block1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-top: 50px;
+	display: inline-block;
+	background: red;
+}
+
+#block2 {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	display: inline-block;
+	background: blue;
+}
+
+#block3 {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	display: inline-block;
+	background: green;
+}
+
+#block4 {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	display: inline-block;
+	background: yellow;
+}
+
+.inner {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	float: left;
+	display: block;
+	background: #888; /*med gray*/
+}
+
+
+
+
+/*index*/
+
+#homepage {
+	width: 50%;
+	margin: auto;
+	margin-top: 100px;
+	border: 3px solid black;
+	height: 180px;
+}
+
+a {
+	text-decoration: none;
+	font-family: sans-serif;
+	display: block;
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+a:hover {
+	opacity: .5;
+}
+
+
+
+
+
+
+
+

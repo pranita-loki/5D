@@ -1,0 +1,471 @@
+
+/*@media (min-width: 1281px) {*/
+@media (min-width: 1000px) {
+body {
+	width: 100%;
+	margin: 0px;
+	background: #262626;
+}
+
+a:hover {
+	opacity: .5;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.top-nav {
+	height: 90px;
+	background-color: darkred;
+	margin: auto;
+	display: inline-block;
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+}
+
+.logo {
+	margin: auto;
+	display: block;
+	width: 350px;
+}
+
+.logo-container {
+	width: 50%;
+	margin: auto;
+	display: inline-block;
+	padding-top: 15px;
+
+}
+
+/*filler*/
+.notifications-left {
+	width: 24%;
+	float: left;
+
+}
+
+.notifications-right {
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+
+.profile-pic {
+	width: 40px;
+	float: right;
+}
+
+.back-arrow {
+	width: 35px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
+/*HOME PAGE STUFF*/
+.home-main-content {
+	width: 70%;
+	margin: auto;
+	padding-top: 130px;
+}
+
+.start-new {
+	height: 40px;
+	width: 200px;
+	margin: auto;
+	border-radius: 40px;
+	background-color: darkred;
+
+}
+
+.start-new-button{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.cards-container {
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: auto auto auto;
+	padding-top: 40px;
+	margin: auto;
+}
+
+.event-card {
+	width: 230px;
+	height: 200px;
+	border-radius: 12px;
+	display: inline-block;
+	margin: auto;
+	background-color: #4c4c4c;
+}
+
+.card-banner {
+	display: block;
+	background: white;
+	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #4c4c4c;
+
+}
+
+.card-header-text {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 20px; 
+	margin-bottom: 0px;
+	text-decoration: none;
+	display: block;
+
+}
+
+.card-body-text {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 12px;
+	margin-left: 20px; 
+	margin-top: 0px;
+
+}
+
+.card-members-container {
+	width: 90%;
+	display: inline-block;
+	margin: auto;
+	margin-left: 18px;
+}
+
+.member {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 12px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 12px;
+	border: 1px solid white;
+	display: inline-block;
+	text-align: center;
+	margin: 1px;
+}
+
+
+/*finalized_plan.html stuff*/
+
+.main-content {
+	width: 50%;
+	height: 600px;
+	border-radius: 12px;
+	background-color: #4c4c4c;
+	margin: auto;
+	margin-top: 130px;
+
+}
+
+.plan-header {
+/*	border: 1px solid white;
+*/	width: 90%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.plan-header-text {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 0px;
+
+}
+
+.plan-body-text {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 16px;
+	margin-top: 5px;
+
+}
+
+.plan-members-container {
+	width: 90%;
+	display: inline-block;
+	margin: auto;
+
+}
+
+.plan-location {
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.plan-details {
+	width: 50%;
+	height: 100%;
+/*	border: 1px solid white;
+*/	display: inline-block;
+	vertical-align: top;
+}
+
+.plan-map {
+	width: 48%;
+	height: 100%;
+/*	border: 1px solid white;
+*/	display: inline-block;
+}
+
+.movie-details {
+	width: 90%;
+	margin: auto;
+	height: 200px;
+	margin-top: 10px;
+/*	border: 1px solid white;
+*/}
+
+.movie-poster {
+	width: 20%;
+	height: 100px;
+/*	border: 1px solid white;
+*/	display: inline-block;
+	margin-right: 20px;
+
+}
+
+.movie-description {
+	width: 70%;
+	height: 100%;
+/*	border: 1px solid white;
+*/	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.call-to-action {
+	width: 90%;
+	margin: auto;
+	height: 30px;
+
+}
+
+.plan-cta-buttons {
+	height: 30px;
+	width: 150px;
+	margin: auto;
+	margin-right: 20px;
+	border-radius: 40px;
+	display: inline-block;
+	background-color: darkred;
+}
+
+.cta-button {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+
+/*notifications.html stuff*/
+
+.notif-header {
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.notification {
+	width: 80%;
+	margin: auto;
+	padding-top: 18px;
+}
+
+.notif-image {
+	width: 40px;
+	display: inline-block;
+
+}
+
+.notif-text {
+	width: 85%;
+	height: 40px;
+	margin-top: 3px;
+	float: right;
+	display: inline-block;
+
+}
+
+/*create_plan_1.html stuff*/
+
+.create-plan-1-container {
+	width: 80%
+	margin: auto;
+	padding-top: 35px;
+	height: 80%;
+}
+
+
+.create-plan-field {
+	margin: auto;
+	margin-top: 30px;
+
+
+}
+
+.progress-body-text {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 16px;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	width: 80%;
+
+}
+
+.text-field {
+	height: 30px;
+	background-color: lightgray;
+	width: 80%;
+	border-radius: 6px;
+	padding-top: 2px;
+	margin: auto;
+	margin-top: 8px;
+}
+
+
+/*create_plan_2.html stuff*/
+
+.next-step-button {
+	margin: auto;
+	width: 150px;
+}
+
+
+/*create_plan_3.html stuff*/
+
+.create-plan-3-container {
+	width: 90%;
+	margin: auto;
+	margin-top: 35px;	
+}
+
+.option-buttons {
+	height: 30px;
+	width: 100px;
+	margin: auto;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+	display: inline-block;
+	background-color: darkred;
+}
+
+
+.create-plan-3-filler {
+	height: 270px;
+}
+
+
+/*create_plan_4.html stuff*/
+
+.select-time {
+	width: 45%;
+	height: 100px;
+	display: inline-block;
+}
+
+.time-options {
+	width: 35%;
+	display: inline-block;
+
+}
+
+.time-frames {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: top;
+
+}
+
+
+.create-plan-4-filler {
+	height: 60px;
+}
+
+/*create_plan_5.html stuff*/
+
+.movie-options {
+	margin-bottom: 20px;
+	
+}
+
+#movie-poster {
+	margin-right: 10px;
+	width: 110px;
+
+}
+
+.more-movie-options {
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+
+
+/*finalization_3.html stuff*/
+
+.finalization-movie-options {
+	width: 90%;
+	margin: auto;
+}
+
+/*finalization_5.html stuff*/
+.finalization-5-filler {
+	height: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

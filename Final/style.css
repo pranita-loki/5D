@@ -1,0 +1,612 @@
+
+/*---------------------------------------------------------*/
+
+/*Light Bulbs*/
+
+body {
+	background-color: black;
+}
+
+#container {
+	width: 1200px;
+	border: 1px solid black;
+}
+
+#wall-background {
+	width: 1200px;
+}
+
+/*THE*/
+
+#the {
+	width: 110px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 155px;
+    left: 275px;
+    z-index: 2;
+}
+
+#the-unlit {
+	background-image: url(images/the-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 70px;
+    left: 260px;
+}
+
+#the-lit {
+	background-image: url(images/the-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 70px;
+    left: 260px;
+}
+
+#the:hover + #the-lit {
+	visibility: visible;
+
+}
+
+/*DARKNESS*/
+
+#darkness {
+	width: 285px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 155px;
+    left: 410px;
+    z-index: 2;
+}
+
+#darkness-unlit {
+	background-image: url(images/darkness-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 70px;
+    left: 470px;
+}
+
+#darkness-lit {
+	background-image: url(images/darkness-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 70px;
+    left: 470px;
+}
+
+#darkness:hover + #darkness-lit {
+	visibility: visible;
+}
+
+
+/*ARRIVES*/
+
+#arrives {
+	width: 230px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 155px;
+    left: 715px;
+    z-index: 2;
+}
+
+#arrives-unlit {
+	background-image: url(images/arrives-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 70px;
+    left: 745px;
+}
+
+#arrives-lit {
+	background-image: url(images/arrives-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 70px;
+    left: 745px;
+}
+
+#arrives:hover + #arrives-lit {
+	visibility: visible;
+
+}
+
+/*STRING*/
+
+#string {
+	width: 180px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 295px;
+    left: 90px;
+    z-index: 2;
+}
+
+#string-unlit {
+	background-image: url(images/string-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 210px;
+    left: 105px;
+}
+
+#string-lit {
+	background-image: url(images/string-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 210px;
+    left: 105px;
+}
+
+#string:hover + #string-lit {
+	visibility: visible;
+}
+
+/*LIGHTS*/
+
+#lights {
+	width: 175px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 295px;
+    left: 290px;
+    z-index: 2;
+}
+
+#lights-unlit {
+	background-image: url(images/lights-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 210px;
+    left: 300px;
+}
+
+#lights-lit {
+	background-image: url(images/lights-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 210px;
+    left: 300px;
+}
+
+#lights:hover + #lights-lit {
+	visibility: visible;
+}
+
+/*GLOW*/
+
+#glow {
+	width: 148px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 295px;
+    left: 480px;
+    z-index: 2;
+}
+
+#glow-unlit {
+	background-image: url(images/glow-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 210px;
+    left: 480px;
+}
+
+#glow-lit {
+	background-image: url(images/glow-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 210px;
+    left: 480px;
+}
+
+#glow:hover + #glow-lit {
+	visibility: visible;
+}
+
+/*AGAINST*/
+
+#against {
+	width: 220px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 295px;
+    left: 640px;
+    z-index: 2;
+}
+
+#against-unlit {
+	background-image: url(images/against-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 210px;
+    left: 670px;
+}
+
+#against-lit {
+	background-image: url(images/against-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 210px;
+    left: 670px;
+}
+
+#against:hover + #against-lit {
+	visibility: visible;
+}
+
+/*THIS*/
+
+#this {
+	width: 115px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 295px;
+    left: 875px;
+    z-index: 2;
+}
+
+#this-unlit {
+	background-image: url(images/this-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 210px;
+    left: 855px;
+}
+
+#this-lit {
+	background-image: url(images/this-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 210px;
+    left: 855px;
+}
+
+#this:hover + #this-lit {
+	visibility: visible;
+}
+
+/*WALL*/
+
+#wall {
+	width: 140px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 295px;
+    left: 1000px;
+    z-index: 2;
+}
+
+#wall-unlit {
+	background-image: url(images/wall-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 210px;
+    left: 985px;
+}
+
+#wall-lit {
+	background-image: url(images/wall-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 210px;
+    left: 985px;
+}
+
+#wall:hover + #wall-lit {
+	visibility: visible;
+}
+
+/*GIVING*/
+
+#giving {
+	width: 170px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 430px;
+    left: 370px;
+    z-index: 2;
+}
+
+#giving-unlit {
+	background-image: url(images/giving-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 350px;
+    left: 375px;
+}
+
+#giving-lit {
+	background-image: url(images/giving-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 350px;
+    left: 375px;
+}
+
+#giving:hover + #giving-lit {
+	visibility: visible;
+}
+
+/*HIM*/
+
+#him {
+	width: 90px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 430px;
+    left: 550px;
+    z-index: 2;
+}
+
+#him-unlit {
+	background-image: url(images/him-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 350px;
+    left: 520px;
+}
+
+#him-lit {
+	background-image: url(images/him-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 350px;
+    left: 520px;
+}
+
+#him:hover + #him-lit {
+	visibility: visible;
+}
+
+/*A*/
+
+#a {
+	width: 45px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 430px;
+    left: 655px;
+    z-index: 2;
+}
+
+#a-unlit {
+	background-image: url(images/a-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 350px;
+    left: 595px;
+}
+
+#a-lit {
+	background-image: url(images/a-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 350px;
+    left: 595px;
+}
+
+#a:hover + #a-lit {
+	visibility: visible;
+}
+
+/*VOICE*/
+
+#voice {
+	width: 140px;
+	height: 70px;
+	position: absolute;
+	display: block;
+	top: 430px;
+    left: 710px;
+    z-index: 2;
+}
+
+#voice-unlit {
+	background-image: url(images/voice-1.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	top: 350px;
+    left: 700px;
+}
+
+#voice-lit {
+	background-image: url(images/voice-2.png);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	top: 350px;
+    left: 700px;
+}
+
+#voice:hover + #voice-lit {
+	visibility: visible;
+}
+
+
+/*---------------------------------------------------------*/
+
+/*Light Switch*/
+
+input[type=checkbox] {
+	display: none;
+}
+
+#lightswitch {
+	width: 30px;
+	height: 50px;
+	border-radius: 3px;
+	position: absolute;
+	display: block;
+	top: 465px;
+    left: 1120px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#switch-off {
+	position: absolute;
+	display: block;
+	top: 465px;
+    left: 1120px;
+    visibility: visible;
+    height: 50px;
+}
+
+#switch-on {
+	position: absolute;
+	display: block;
+	top: 465px;
+    left: 1120px;
+    visibility: hidden;
+    height: 50px;
+}
+
+input[type=checkbox]:checked ~ #switch-on {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #the-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #darkness-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #arrives-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #string-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #lights-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #glow-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #against-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #this-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #wall-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #giving-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #him-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #a-lit {
+	visibility: visible;
+}
+
+input[type=checkbox]:checked ~ #voice-lit {
+	visibility: visible;
+}
+
+
+
